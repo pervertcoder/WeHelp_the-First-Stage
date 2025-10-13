@@ -1,0 +1,388 @@
+@charset "UTF-8";
+.topbar {
+  width: 100%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  display: flex;
+  align-content: center;
+}
+
+.topbar1 {
+  width: 70%;
+}
+
+.topbar2 {
+  width: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.left {
+  width: 10%;
+  height: 10px;
+  text-align: center;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.item {
+  font-size: 20px;
+  width: 20%;
+  height: 20px;
+  text-align: center;
+  align-content: center;
+  margin: 0px;
+}
+
+.middlebar {
+  background-color: #ecf5ff;
+  margin-top: 9px;
+  margin-bottom: 20px;
+  height: 250px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
+}
+
+/*
+.headword {
+  height: 250px;
+  line-height: 1;
+  font-size: $basefontsize * 2;
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
+}
+*/
+.imagebar {
+  width: 1200px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.promotion1 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 80px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.word {
+  width: 95%;
+  height: 100%;
+  background-color: #ecf5ff;
+}
+
+.word p {
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  align-content: center;
+}
+
+.promotion23 {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.promotion2 {
+  width: 66%;
+  height: 100%;
+  display: flex;
+}
+
+.image2 {
+  width: 80px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image2 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.word2 {
+  width: 90%;
+  background-color: #ecf5ff;
+}
+
+.p2 {
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  align-content: center;
+}
+
+.promotion3 {
+  width: 34%;
+  height: 100%;
+  display: flex;
+}
+
+.image3 {
+  width: 80px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image3 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.word3 {
+  width: 95%;
+  background-color: #ecf5ff;
+}
+
+.p3 {
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  align-content: center;
+}
+
+.title {
+  width: 1200px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.title.A {
+  height: 500px;
+  margin-right: 10px;
+  flex: 2 1 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.title1 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.title1::after {
+  content: "⭐";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  opacity: 1;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.title1 img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title6 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.title6 img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title.B {
+  flex: 1 1 0;
+  height: 500px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title2 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.title2 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title7 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.title7 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title.C {
+  flex: 1 1 0;
+  height: 500px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title3 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.title3 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title8 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.title8 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title.D {
+  flex: 1 1 0;
+  height: 500px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title4 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.title4 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title9 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.title9 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title.E {
+  flex: 1 1 0;
+  height: 500px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title5 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.title5 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title10 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.title10 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer {
+  width: 1200px;
+}
+
+.blank {
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}/*# sourceMappingURL=all style.css.map */
