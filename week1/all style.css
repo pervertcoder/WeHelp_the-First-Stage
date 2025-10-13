@@ -82,7 +82,7 @@
   height: 100%;
   display: block;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .word {
@@ -126,7 +126,7 @@
   height: 100%;
   display: block;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .word2 {
@@ -161,7 +161,7 @@
   height: 100%;
   display: block;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .word3 {
@@ -191,6 +191,7 @@
   flex: 2 1 0;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .title1 {
@@ -207,16 +208,30 @@
   top: 5px;
   right: 5px;
   font-size: 20px;
-  opacity: 1;
+  opacity: 0.6;
   pointer-events: none;
   z-index: 10;
+}
+
+.transparent_bar1 {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffb9;
+  opacity: 0.7;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title1 img {
   max-width: 100%;
   height: auto;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .title6 {
@@ -224,13 +239,39 @@
   height: 100%;
   overflow: hidden;
   margin-top: 10px;
+  position: relative;
+}
+
+.title6::after {
+  content: "⭐";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.transparent_bar6 {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffb9;
+  opacity: 0.7;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title6 img {
   max-width: 100%;
   height: auto;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .title.B {
@@ -246,13 +287,39 @@
   height: 100%;
   overflow: hidden;
   margin-bottom: 10px;
+  position: relative;
+}
+
+.title2::after {
+  content: "⭐";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.transparent_bar2 {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffb9;
+  opacity: 0.7;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title2 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .title7 {
@@ -260,13 +327,39 @@
   height: 100%;
   overflow: hidden;
   margin-top: 10px;
+  position: relative;
+}
+
+.title7::after {
+  content: "⭐";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.transparent_bar7 {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffb9;
+  opacity: 0.7;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title7 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .title.C {
@@ -282,13 +375,39 @@
   height: 100%;
   overflow: hidden;
   margin-bottom: 10px;
+  position: relative;
+}
+
+.title3::after {
+  content: "⭐";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.transparent_bar3 {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffb9;
+  opacity: 0.7;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title3 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .title8 {
@@ -296,13 +415,39 @@
   height: 100%;
   overflow: hidden;
   margin-top: 10px;
+  position: relative;
+}
+
+.title8::after {
+  content: "⭐";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.transparent_bar8 {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffb9;
+  opacity: 0.7;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title8 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .title.D {
@@ -318,13 +463,39 @@
   height: 100%;
   overflow: hidden;
   margin-bottom: 10px;
+  position: relative;
+}
+
+.title4::after {
+  content: "⭐";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.transparent_bar4 {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffb9;
+  opacity: 0.7;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title4 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .title9 {
@@ -332,13 +503,39 @@
   height: 100%;
   overflow: hidden;
   margin-top: 10px;
+  position: relative;
+}
+
+.title9::after {
+  content: "⭐";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.transparent_bar9 {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffb9;
+  opacity: 0.7;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title9 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .title.E {
@@ -354,13 +551,39 @@
   height: 100%;
   overflow: hidden;
   margin-bottom: 10px;
+  position: relative;
+}
+
+.title5::after {
+  content: "⭐";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.transparent_bar5 {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffb9;
+  opacity: 0.7;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title5 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .title10 {
@@ -368,13 +591,39 @@
   height: 100%;
   overflow: hidden;
   margin-top: 10px;
+  position: relative;
+}
+
+.title10::after {
+  content: "⭐";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  opacity: 0.6;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.transparent_bar10 {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffb9;
+  opacity: 0.7;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title10 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .footer {
@@ -385,4 +634,4 @@
   width: 100%;
   padding-top: 3%;
   padding-bottom: 3%;
-}/*# sourceMappingURL=all style.css.map */
+} /*# sourceMappingURL=all style.css.map */
