@@ -82,7 +82,7 @@
   height: 100%;
   display: block;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .word {
@@ -126,7 +126,7 @@
   height: 100%;
   display: block;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .word2 {
@@ -161,7 +161,7 @@
   height: 100%;
   display: block;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .word3 {
@@ -224,14 +224,15 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  align-content: center;
 }
 
 .title1 img {
   max-width: 100%;
   height: auto;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .title6 {
@@ -264,14 +265,15 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  align-content: center;
 }
 
 .title6 img {
   max-width: 100%;
   height: auto;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .title.B {
@@ -312,14 +314,15 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  align-content: center;
 }
 
 .title2 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .title7 {
@@ -352,14 +355,15 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  align-content: center;
 }
 
 .title7 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .title.C {
@@ -400,14 +404,15 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  align-content: center;
 }
 
 .title3 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .title8 {
@@ -440,14 +445,15 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  align-content: center;
 }
 
 .title8 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .title.D {
@@ -488,14 +494,15 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  align-content: center;
 }
 
 .title4 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .title9 {
@@ -528,14 +535,15 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  align-content: center;
 }
 
 .title9 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .title.E {
@@ -576,14 +584,15 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  align-content: center;
 }
 
 .title5 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .title10 {
@@ -616,14 +625,15 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  justify-content: center;
+  text-align: center;
+  align-content: center;
 }
 
 .title10 img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .footer {
@@ -634,4 +644,4 @@
   width: 100%;
   padding-top: 3%;
   padding-bottom: 3%;
-} /*# sourceMappingURL=all style.css.map */
+}/*# sourceMappingURL=all style.css.map */
