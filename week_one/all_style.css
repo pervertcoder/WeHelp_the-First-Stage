@@ -709,7 +709,7 @@
   .title_second {
     width: 90%;
     max-width: 1200px;
-    margin: 1px auto 0 auto;
+    margin: 20px auto 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -739,7 +739,7 @@
   .title_wide {
     width: 90%;
     max-width: 1200px;
-    margin: 30px auto 0 auto;
+    margin: 20px auto 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
