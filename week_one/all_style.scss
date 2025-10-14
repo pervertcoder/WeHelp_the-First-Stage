@@ -6,30 +6,28 @@ $title_bar_color: #ffffb9;
 
 .topbar {
   width: 100%;
-  // background-color: red;
-  margin-top: 0%;
+  margin-top: 0.5%;
   margin-bottom: 0%;
   display: flex;
+  flex-wrap: nowrap;
   align-content: center;
 }
 .topbar1 {
   width: 70%;
-  // background-color: blue;
 }
 .topbar2 {
   width: 30%;
-  // background-color: purple;
   display: flex;
   justify-content: end;
   align-items: center;
 }
 .left {
   width: 10%;
-  height: 10px;
   text-align: center;
   margin: 0px;
   font-size: $basefontsize;
   font-weight: bold;
+  white-space: nowrap;
 }
 .item {
   font-size: $basefontsize;
@@ -38,10 +36,11 @@ $title_bar_color: #ffffb9;
   text-align: center;
   align-content: center;
   margin: 0px;
+  white-space: nowrap;
 }
 .middlebar {
   background-color: $backgroundcolor;
-  margin-top: 9px;
+  margin-top: 0.5%;
   margin-bottom: 20px;
   height: 250px;
   font-size: $basefontsize * 2;
@@ -49,16 +48,6 @@ $title_bar_color: #ffffb9;
   text-align: center;
   align-content: center;
 }
-/*
-.headword {
-  height: 250px;
-  line-height: 1;
-  font-size: $basefontsize * 2;
-  font-weight: bold;
-  text-align: center;
-  align-content: center;
-}
-*/
 .imagebar {
   width: 1200px;
   margin: auto;
@@ -203,8 +192,7 @@ $title_bar_color: #ffffb9;
   // font
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 .title1 img {
   max-width: 100%;
@@ -240,8 +228,7 @@ $title_bar_color: #ffffb9;
   // font
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 .title6 img {
   max-width: 100%;
@@ -252,6 +239,7 @@ $title_bar_color: #ffffb9;
   flex: 1 1 0;
   height: 500px;
   margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -284,8 +272,7 @@ $title_bar_color: #ffffb9;
   // font
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 .title2 img {
   width: 100%;
@@ -321,8 +308,7 @@ $title_bar_color: #ffffb9;
   // font
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 .title7 img {
   width: 100%;
@@ -333,6 +319,7 @@ $title_bar_color: #ffffb9;
   flex: 1 1 0;
   height: 500px;
   margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -365,8 +352,7 @@ $title_bar_color: #ffffb9;
   // font
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 .title3 img {
   width: 100%;
@@ -402,8 +388,7 @@ $title_bar_color: #ffffb9;
   // font
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 .title8 img {
   width: 100%;
@@ -414,6 +399,7 @@ $title_bar_color: #ffffb9;
   flex: 1 1 0;
   height: 500px;
   margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -446,8 +432,7 @@ $title_bar_color: #ffffb9;
   // font
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 .title4 img {
   width: 100%;
@@ -483,8 +468,7 @@ $title_bar_color: #ffffb9;
   // font
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 .title9 img {
   width: 100%;
@@ -495,6 +479,7 @@ $title_bar_color: #ffffb9;
   flex: 1 1 0;
   height: 500px;
   margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -527,8 +512,7 @@ $title_bar_color: #ffffb9;
   // font
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 .title5 img {
   width: 100%;
@@ -564,8 +548,7 @@ $title_bar_color: #ffffb9;
   // font
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 .title10 img {
   width: 100%;
@@ -579,4 +562,7 @@ $title_bar_color: #ffffb9;
   width: 100%;
   padding-top: 3%;
   padding-bottom: 3%;
+}
+
+@media (max-width: 1200px) and (min-width: 601px) {
 }

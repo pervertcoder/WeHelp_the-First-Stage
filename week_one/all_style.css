@@ -1,9 +1,10 @@
 @charset "UTF-8";
 .topbar {
   width: 100%;
-  margin-top: 0%;
+  margin-top: 0.5%;
   margin-bottom: 0%;
   display: flex;
+  flex-wrap: nowrap;
   align-content: center;
 }
 
@@ -20,11 +21,11 @@
 
 .left {
   width: 10%;
-  height: 10px;
   text-align: center;
   margin: 0px;
   font-size: 20px;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .item {
@@ -34,11 +35,12 @@
   text-align: center;
   align-content: center;
   margin: 0px;
+  white-space: nowrap;
 }
 
 .middlebar {
   background-color: #ecf5ff;
-  margin-top: 9px;
+  margin-top: 0.5%;
   margin-bottom: 20px;
   height: 250px;
   font-size: 40px;
@@ -47,16 +49,6 @@
   align-content: center;
 }
 
-/*
-.headword {
-  height: 250px;
-  line-height: 1;
-  font-size: $basefontsize * 2;
-  font-weight: bold;
-  text-align: center;
-  align-content: center;
-}
-*/
 .imagebar {
   width: 1200px;
   margin: auto;
@@ -224,8 +216,7 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 
 .title1 img {
@@ -265,8 +256,7 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 
 .title6 img {
@@ -280,6 +270,7 @@
   flex: 1 1 0;
   height: 500px;
   margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -314,8 +305,7 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 
 .title2 img {
@@ -355,8 +345,7 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 
 .title7 img {
@@ -370,6 +359,7 @@
   flex: 1 1 0;
   height: 500px;
   margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -404,8 +394,7 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 
 .title3 img {
@@ -445,8 +434,7 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 
 .title8 img {
@@ -460,6 +448,7 @@
   flex: 1 1 0;
   height: 500px;
   margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -494,8 +483,7 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 
 .title4 img {
@@ -535,8 +523,7 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 
 .title9 img {
@@ -550,6 +537,7 @@
   flex: 1 1 0;
   height: 500px;
   margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -584,8 +572,7 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 
 .title5 img {
@@ -625,8 +612,7 @@
   z-index: 5;
   display: flex;
   align-items: center;
-  text-align: center;
-  align-content: center;
+  justify-content: center;
 }
 
 .title10 img {
