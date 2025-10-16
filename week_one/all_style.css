@@ -1026,7 +1026,7 @@
   .hamburger {
     width: 40px;
     padding: 2.5px 0 0 0;
-    margin: 0 0 0 0;
+    margin: 0 10px 0 0;
     cursor: pointer;
     display: block;
     position: absolute;
