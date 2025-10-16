@@ -182,7 +182,7 @@ $title_bar_color: #ffffb9;
   width: 100%;
   height: 50px;
   margin-top: 20px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
@@ -243,6 +243,7 @@ $title_bar_color: #ffffb9;
   height: 50px;
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 }
 .image_3 {
   width: 73px;
@@ -836,7 +837,7 @@ $title_bar_color: #ffffb9;
     display: flex;
     flex-wrap: wrap;
     width: 90%;
-    margin: auto auto 35px auto;
+    margin: 5px auto 10px auto;
   }
 
   .imagebar_3 {

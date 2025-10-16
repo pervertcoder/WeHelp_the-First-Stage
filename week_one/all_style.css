@@ -189,7 +189,7 @@
   width: 100%;
   height: 50px;
   margin-top: 20px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
@@ -262,6 +262,7 @@
   height: 50px;
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 }
 
 .image_3 {
@@ -908,7 +909,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 90%;
-    margin: auto auto 35px auto;
+    margin: 5px auto 10px auto;
   }
   .imagebar_3 {
     display: none;
